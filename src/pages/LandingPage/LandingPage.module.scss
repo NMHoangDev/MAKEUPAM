@@ -1,0 +1,183 @@
+.wrapper {
+}
+.background {
+  position: relative;
+  img {
+    width: 1263px;
+    height: 680px;
+  }
+}
+
+/* CSS */
+.btn-sign-up {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: #827272;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 35%;
+  font-weight: 700;
+}
+
+.btn-sign-up:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.btn-sign-up:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffc0cb;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+.btn-sign-in {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: #ffc0cb;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 500px;
+  right: 35%;
+  font-weight: 700;
+}
+
+.btn-sign-in:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.btn-sign-in:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #827272;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+.contact-title {
+  font-size: 20px;
+  margin-top: -22px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+
+  .instagram {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #c27292;
+  }
+  .facebook {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #c27292;
+  }
+  .tiktok {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #c27292;
+  }
+}

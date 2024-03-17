@@ -1,0 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto_Mono/RobotoMono.ttf") format("truetype");
+  /* Thay đổi đường dẫn file font tương ứng với tên và định dạng file bạn đã tải */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}

@@ -1,0 +1,103 @@
+.wrapper {
+  position: relative;
+  img {
+    width: 1300px;
+    height: 680px;
+  }
+}
+// Form CSS
+.form {
+  position: absolute;
+  top: 20px;
+  left: 32%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  // IMG BACGROUND CSS
+  img {
+    width: 450px;
+    height: 640px;
+    border-radius: 10px 40px 10px;
+  }
+}
+// FORM SIGN UP CSS
+.form-sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+
+  // CSS FOR DIV ON FORM SIGN UP
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    // CSS FOR INPUT
+    input {
+      border: solid 2px #ffc0cb;
+      font-size: 16px;
+      width: 300px;
+      border-radius: 15px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      outline: none;
+      margin-left: 20px;
+      align-self: center;
+      border-bottom: 4px solid #e91e63;
+    }
+    // CSS FOR LABEL
+    label {
+      margin-left: 20px;
+      align-self: center;
+      color: #f45f77;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 450;
+    }
+  }
+  .sub-field {
+    a {
+      color: #f45f77;
+      margin-left: 10px;
+      font-weight: 600;
+    }
+    p {
+      color: #d27d7d;
+    }
+  }
+  // CSS FOR BUTTON
+
+  /* CSS */
+  .signUp-btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #faabb8;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px,
+      4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .signUp-btn:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+
+  @media (min-width: 768px) {
+    .signUp-btn {
+      padding: 0.25em 0.75em;
+    }
+  }
+}
